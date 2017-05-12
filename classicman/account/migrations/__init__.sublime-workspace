@@ -1,0 +1,405 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+			[
+				"mar",
+				"margin-left"
+			],
+			[
+				"paddi",
+				"padding-left"
+			],
+			[
+				"lo",
+				"Logout"
+			],
+			[
+				"t",
+				"True"
+			],
+			[
+				"b",
+				"blank"
+			],
+			[
+				"col-",
+				"col-xs-12"
+			],
+			[
+				"hea",
+				"header"
+			],
+			[
+				"U",
+				"UserProfileForm"
+			],
+			[
+				"padd",
+				"padding-left"
+			],
+			[
+				"wid",
+				"width"
+			],
+			[
+				"log",
+				"logout"
+			],
+			[
+				"fin",
+				"find_all"
+			],
+			[
+				"ur",
+				"urllib"
+			],
+			[
+				"read",
+				"readurl"
+			],
+			[
+				"str",
+				"string"
+			],
+			[
+				"soup",
+				"soup_body"
+			],
+			[
+				"rea",
+				"readline_url"
+			],
+			[
+				"render",
+				"render_to_response"
+			],
+			[
+				"re",
+				"readhtml"
+			],
+			[
+				"margin",
+				"margin-top"
+			],
+			[
+				"bac",
+				"background-color"
+			],
+			[
+				"padding",
+				"padding-top"
+			],
+			[
+				"pa",
+				"page"
+			],
+			[
+				"pro",
+				"Product"
+			],
+			[
+				"c",
+				"Category"
+			],
+			[
+				"ba",
+				"background-color"
+			],
+			[
+				"h",
+				"host_port"
+			],
+			[
+				"ca",
+				"category_name"
+			],
+			[
+				"C",
+				"CASCADE"
+			],
+			[
+				"m",
+				"max_length"
+			],
+			[
+				"eden",
+				"eden_views"
+			],
+			[
+				"get",
+				"getName"
+			],
+			[
+				"s",
+				"species"
+			],
+			[
+				"dist",
+				"distance"
+			],
+			[
+				"dis",
+				"dist_x"
+			]
+		]
+	},
+	"buffers":
+	[
+	],
+	"build_system": "",
+	"build_system_choices":
+	[
+	],
+	"build_varint": "",
+	"command_palette":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"console":
+	{
+		"height": 126.0,
+		"history":
+		[
+		]
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"file_history":
+	[
+		"/home/bwire/wasani/login/templates/login/base.html",
+		"/home/bwire/wasani/login/views.py",
+		"/home/bwire/wasani/login/models.py",
+		"/home/bwire/wasani/login/urls.py",
+		"/home/bwire/wasani/login/templates/login/index.html",
+		"/home/bwire/wasani/catalog/urls.py",
+		"/home/bwire/wasani/catalog/views.py",
+		"/home/bwire/wasani/login/static/login/styles.css",
+		"/home/bwire/wasani/catalog/models.py",
+		"/home/bwire/Desktop/deric/python/count.py",
+		"/home/bwire/wasani/wasani/settings.py",
+		"/home/bwire/wasani/catalog/templates/catalog/catalog.html",
+		"/home/bwire/myshop.py",
+		"/home/bwire/derick/python/scrap.py",
+		"/home/bwire/wasani/login/static/styles.css",
+		"/home/bwire/wasani/catalog/__init__.py",
+		"/home/bwire/tango/rango/templates/rango/registration_form.html",
+		"/home/bwire/Desktop/eden/product/views.py",
+		"/home/bwire/Desktop/eden/product/templates/detail.html",
+		"/home/bwire/Desktop/eden/product/templates/catalogue.html",
+		"/home/bwire/Desktop/eden/product/models.py",
+		"/home/bwire/Desktop/eden/eden/urls.py",
+		"/home/bwire/Desktop/eden/eden/settings.py",
+		"/home/bwire/tango/rango/views.py",
+		"/home/bwire/tango/rango/forms.py",
+		"/home/bwire/tango/tango/urls.py",
+		"/home/bwire/tango/rango/urls.py",
+		"/home/bwire/wasani/login/admin.py",
+		"/home/bwire/wasani/login/templates/login/signup.html",
+		"/home/bwire/tango/rango/models.py",
+		"/home/bwire/tango/tango/settings.py",
+		"/home/bwire/tango/templates/rango/register.html",
+		"/home/bwire/wasani/wasani/urls.py",
+		"/home/bwire/wasani/login/forms.py",
+		"/home/bwire/wasani/login/templates/registration/login.html",
+		"/home/bwire/wasani/wasani/views.py",
+		"/home/bwire/Desktop/eden/login/views.py",
+		"/home/bwire/Desktop/eden/login/urls.py",
+		"/home/bwire/Desktop/eden/login/forms.py",
+		"/home/bwire/Desktop/eden/eden/views.py",
+		"/home/bwire/Desktop/eden/product/urls.py",
+		"/home/bwire/Desktop/eden/templates/signup.html",
+		"/home/bwire/Desktop/eden/templates/product.html",
+		"/home/bwire/tango/templates/rango/index.html",
+		"/home/bwire/derick/python/sample.html",
+		"/home/bwire/Desktop/eden/login/formspy",
+		"/home/bwire/Desktop/eden/templates/login/signup.html",
+		"/home/bwire/Desktop/eden/login/url.py",
+		"/home/bwire/myapp/templates/login/base.html",
+		"/home/bwire/myapp/templates/login.html",
+		"/home/bwire/myapp/myapp/settings.py",
+		"/home/bwire/myapp/login/forms.py",
+		"/home/bwire/myapp/login/views.py",
+		"/home/bwire/Desktop/eden/templates/login/login.html",
+		"/home/bwire/myapp/templates/signup.html",
+		"/home/bwire/myapp/myapp/urls.py",
+		"/home/bwire/myapp/login/templates/index.html",
+		"/home/bwire/myapp/login/urls.py",
+		"/home/bwire/Desktop/eden/templates/index.html",
+		"/home/bwire/myapp/templates/login/registration/login.html",
+		"/home/bwire/myapp/login/templates/home.html",
+		"/home/bwire/myapp/login/templates/registration.html",
+		"/home/bwire/myapp/login/templates/success.html",
+		"/home/bwire/myapp/login/templates/login.html\" %}",
+		"/home/bwire/mysite/mysite/settings.py",
+		"/home/bwire/mysite/mysite/urls.py",
+		"/home/bwire/Desktop/deric/twitter.py",
+		"/home/bwire/derick/python/pg2.py",
+		"/home/bwire/Desktop/deric/finelib.py",
+		"/home/bwire/Desktop/deric/finelib.html",
+		"/home/bwire/derick/python/link2.html",
+		"/home/bwire/derick/python/link.html",
+		"/home/bwire/derick/python/body.html",
+		"/home/bwire/derick/python/finelib.py",
+		"/home/bwire/python/venv/scrap.py",
+		"/home/bwire/derick/python/example.py",
+		"/home/bwire/derick/python/scraping.html",
+		"/home/bwire/tango/rango/admin.py",
+		"/home/bwire/tango/rango/register.html",
+		"/home/bwire/Desktop/eden/templates/base.html",
+		"/home/bwire/Desktop/eden/templates/product_details.html",
+		"/home/bwire/Desktop/eden/static/style.css",
+		"/home/bwire/Desktop/eden/static/css/creative.css",
+		"/home/bwire/tutorial/tutorial/spiders/qoute_spider.py",
+		"/home/bwire/Desktop/eden/static/css/creative.min.css",
+		"/home/bwire/brickset-scraper/scraper.py",
+		"/home/bwire/Desktop/derick/vc.py",
+		"/home/bwire/Desktop/derick/arrow.py",
+		"/home/bwire/Desktop/eden/templates/about.html",
+		"/home/bwire/Desktop/eden/product/templates/base.html",
+		"/home/bwire/.cache/.fr-za0cDP/startbootstrap-creative-gh-pages/index.html",
+		"/home/bwire/Desktop/derick/client.py",
+		"/home/bwire/Desktop/eden/product/admin.py",
+		"/home/bwire/.cache/.fr-scLtCe/startbootstrap-creative-gh-pages/index.html",
+		"/home/bwire/Desktop/eden/login/models.py",
+		"/home/bwire/Desktop/derick/oop.py"
+	],
+	"find":
+	{
+		"height": 23.0
+	},
+	"find_in_files":
+	{
+		"height": 90.0,
+		"where_history":
+		[
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": false,
+		"find_history":
+		[
+			"%}",
+			"img",
+			"html",
+			"')",
+			"html"
+		],
+		"highlight": true,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": false,
+		"replace_history":
+		[
+		],
+		"reverse": false,
+		"show_context": true,
+		"use_buffer2": true,
+		"whole_word": false,
+		"wrap": true
+	},
+	"groups":
+	[
+		{
+			"sheets":
+			[
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 23.0
+	},
+	"input":
+	{
+		"height": 31.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"output.find_results":
+	{
+		"height": 0.0
+	},
+	"pinned_build_system": "",
+	"project": "__init__.sublime-project",
+	"replace":
+	{
+		"height": 42.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_symbol":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"selected_group": 0,
+	"settings":
+	{
+	},
+	"show_minimap": true,
+	"show_open_files": true,
+	"show_tabs": true,
+	"side_bar_visible": true,
+	"side_bar_width": 146.0,
+	"status_bar_visible": true,
+	"template_settings":
+	{
+	}
+}

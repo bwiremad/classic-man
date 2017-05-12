@@ -1,0 +1,16 @@
+{% extends 'account/base.html' %}
+
+{% block content %}
+<div>
+    {% if user.is_authenticated %}
+<h1>Rango says... hello {{ user.username }}!</h1>
+{% else %}
+<h1>Rango says... hello world!</h1>
+{% endif %}
+    <p>Home page</p>
+
+    <a href="/account/register">Register</a>
+    <a href="accounts/login">Login</a>
+    <a href="accounts/logout">logout</a>
+</div>
+{% endblock %}

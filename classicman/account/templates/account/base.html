@@ -1,0 +1,242 @@
+{% load static %}
+
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Classicman</title>
+    <meta name="description" content="ClassicMan">
+
+    <link rel="stylesheet" type="text/css" href="{% static 'account/style.css' %}" />
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css">
+    <link href='https://fonts.googleapis.com/css?family=Satisfy' rel='stylesheet' type='text/css'>
+
+</head>
+
+    <!-- <style>
+        body{
+            margin-left: auto;
+        }
+
+        .container{
+            padding-top: 40px;
+        }
+    </style> -->
+
+
+<body>
+<div class="container-fluid">
+    <!-- Navbar -->
+    <nav class="navbar navbar-inverse navbar-fixed-top" id="my-navbar">
+        <div class="container">
+            <div class="navbar-header">
+                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#navbar-collapse">
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                </button>
+
+                <a href="navbar-brand"><strong>Classic|man</strong></a>
+            </div>
+
+            <div class="collapse navbar-collapse" id="navbar-collapse">
+                <ul class="nav navbar-nav navbar-right">
+                    {% if user.is_authenticated %}
+                        <li>Hi {{ user.username }}!</li>
+                        <li><a href="/account/Logout/">Logout</a></li>
+                    {% else %}
+                        <li><a href="/account/register">Register</a></li>
+                        <li><a href="accounts/login">Login</a></li>
+                    {% endif %}
+
+                    <li><a href="/"><span class="glyphicon glyphicon-shopping-cart" aria-hidden="true"></span>&nbsp;Cart </a> 	</li>
+
+                </ul>
+
+                <ul class="nav navbar-nav navbar-right">
+                            {% if user.is_authenticated %}
+                            <li><a href="/">Restricted</a></li>
+                            <li><a href="/">Add Category</a></li>
+                            {% endif %}
+                            <li><a href="/">About</a></li>
+                        </ul>
+            </div>
+                        </div>
+        </div>
+    </nav>
+
+
+
+    <div class="container" id="content">
+        <section>
+            <div class="row">
+                <div class="col-lg-2">
+                    <div class="Sidebar">
+                        <div class="navbar-header">
+                            <h3>Sidebar</h3>
+                        </div>
+
+                       <p>Because of the alternating nature of the input AC sine wave, the process of rectification alone
+                       produces a DC current that, though unidirectional, consists of pulses of c
+                       Because of the alternating nature of the input AC sine wave, the process of rectification alone produces a DC current that, though unidirectional, consists of pulses of current. Many applications of rectifiers, such as power supplies for radio, television and  ecause of the alternating nature of the input AC sine wave, the process of rectification alone
+                       produces a DC current that, though unidirectional, consists of pulses of c
+                       Because of the alternating nature of the input AC sine wave, the process of rectification alone produces a DC current that, though unidirectional, consists of pulses of current. Many applications of rectifiers, such as power supplies for radio, television andecause of the alternating nature of the input AC sine wave, the process of rectification alone
+                       produces a DC current that, though unidirectional, consists of pulses of c
+                       Because of the alternating nature of the input AC sine wave, the process of rectification alone produces a DC current that, though unidirectional, consists of pulses of current. Many applications of rectifiers, such as power supplies for radio, television andecause of the alternating nature of the input AC sine wave, the process of rectification alone
+                       produces a DC current that, though unidirectional, consists of pulses of c
+                       Because of the alternating nature of the input AC sine wave, the process of rectification alone produces a DC current that, though unidirectional, consists of pulses of current. Many applications of rectifiers, such as power supplies for radio, television andecause of the alternating nature of the input AC sine wave, the process of rectification alone
+                       produces a DC current that, though unidirectional, consists of pulses of c
+                       Because of the alternating nature of the input AC sine wave, the process of rectification alone produces a DC current that, though unidirectional, consists of pulses of current. Many applications of rectifiers, such as power supplies for radio, television andecause of the alternating nature of the input AC sine wave, the process of rectification alone
+                       produces a DC current that, though unidirectional, consists of pulses of c
+                       Because of the alternating nature of the input AC sine wave, the process of rectification alone produces a DC current that, though unidirectional, consists of pulses of current. Many applications of rectifiers, such as power supplies for radio, television andcomputer</p>
+		            </div>
+                </div>
+                <div class="col-lg-9">
+                    <div class="carousel slide" id="screenshot-carousel" data-ride="carousel">
+                        <ol class="carousel-indicators">
+                            <li data-target='#screenshot-carousel' data-slide-to='0' class="active"></li>
+                            <li data-target='#screenshot-carousel' data-slide-to='1'></li>
+                            <li data-target='#screenshot-carousel' data-slide-to='2'></li>
+                            <li data-target='#screenshot-carousel' data-slide-to='3'></li>
+                        </ol>
+                        <div class="carousel-inner">
+                            <div class="item active">
+                                <img src="{% static 'account/images/1.jpg' alt='Text of the image' height='10' %}" />
+                            </div>
+                            <div class="item ">
+                                <img src="{% static 'account/images/2.jpg' alt='Text of the image' %}" />
+                            </div>
+                            <div class="item ">
+                                <img src="{% static 'account/images/3.jpg' alt='Text of the image' %}" />
+                            </div>
+                            <div class="item ">
+                                <img src="{% static 'account/images/7.jpg' alt='Text of the image' %}" />
+                            </div>
+                        </div>
+
+                        <a href="#screenshot-carousel" class="left carousel-control" data-slide='prev'>
+                            <span class="glyphicon glyphicon-chevron-left"></span>
+                        </a>
+                        <a href="#screenshot-carousel" class="right carousel-control" data-slide='prev'>
+                            <span class="glyphicon glyphicon-chevron-right"></span>
+                        </a>
+
+                    </div>
+                    <div class="jumbotron-body">
+                        <p>Because of the alternating nature of the input AC sine wave, the process of rectification alone produces a DC current that, though unidirectional, consists of pulses of current. Many applications of rectifiers, such as power supplies for radio, television and computerBecause of the alternating nature of the input AC sine wave, the process of rectification alone produces a DC current that, though unidirectional, consists of pulses of current. Many applications of rectifiers, such as power supplies for radio, television and computerBecause of the alternating nature of the input AC sine wave, the process of rectification alone produces a DC current that, though unidirectional, consists of pulses of current. Many applications of rectifiers, such as power supplies for radio, television and computerBecause of the alternating nature of the input AC sine wave, the process of rectification alone produces a DC current that, though unidirectional, consists of pulses of current. Many applications of rectifiers, such as power supplies for radio, television and computerBecause of the alternating nature of the input AC sine wave, the process of rectification alone produces a DC current that, though unidirectional, consists of pulses of current. Many applications of rectifiers, such as power supplies for radio, television and computerBecause of the alternating nature of the input AC sine wave, the process of rectification alone produces a DC current that, though unidirectional, consists of pulses of current. Many applications of rectifiers, such as power supplies for radio, television and computerBecause of the alternating nature of the input AC sine wave, the process of rectification alone produces a DC current that, though unidirectional, consists of pulses of current. Many applications of rectifiers, such as power supplies for radio, television and computerBecause of the alternating nature of the input AC sine wave, the process of rectification alone produces a DC current that, though unidirectional, consists of pulses of current. Many applications of rectifiers, such as power supplies for radio, television and computerBecause of the alternating nature of the input AC sine wave, the process of rectification alone produces a DC current that, though unidirectional, consists of pulses of current. Many applications of rectifiers, such as power supplies for radio, television and computerBecause of the alternating nature of the input AC sine wave, the process of rectification alone produces a DC current that, though unidirectional, consists of pulses of current. Many applications of rectifiers, such as power supplies for radio, television and computerBecause of the alternating nature of the input AC sine wave, the process of rectification alone produces a DC current that, though unidirectional, consists of pulses of current. Many applications of rectifiers, such as power supplies for radio, television and computerBecause of the alternating nature of the input AC sine wave, the process of rectification alone produces a DC current that, though unidirectional, consists of pulses of current. Many applications of rectifiers, such as power supplies for radio, television and computerBecause of the alternating nature of the input AC sine wave, the process of rectification alone produces a DC current that, though unidirectional, consists of pulses of current. Many applications of rectifiers, such as power supplies for radio, television and computerBecause of the alternating nature of the input AC sine wave, the process of rectification alone produces a DC current that, though unidirectional, consists of pulses of current. Many applications of rectifiers, such as power supplies for radio, television and computerBecause of the alternating nature of the input AC sine wave, the process of rectification alone produces a DC current that, though unidirectional, consists of pulses of current. Many applications of rectifiers, such as power supplies for radio, television and computerBecause of the alternating nature of the input AC sine wave, the process of rectification alone produces a DC current that, though unidirectional, consists of pulses of current. Many applications of rectifiers, such as power supplies for radio, television and computerBecause of the alternating nature of the input AC sine wave, the process of rectification alone produces a DC current that, though unidirectional, consists of pulses of current. Many applications of rectifiers, such as power supplies for radio, television and computerBecause of the alternating nature of the input AC sine wave, the process of rectification alone produces a DC current that, though unidirectional, consists of pulses of current. Many applications of rectifiers, such as power supplies for radio, television and computerBecause of the alternating nature of the input AC sine wave, the process of rectification alone produces a DC current that, though unidirectional, consists of pulses of current. Many applications of rectifiers, such as power supplies for radio, television and computerBecause of the alternating nature of the input AC sine wave, the process of rectification alone produces a DC current that, though unidirectional, consists of pulses of current. Many applications of rectifiers, such as power supplies for radio, television and computerBecause of the alternating nature of the input AC sine wave, the process of rectification alone produces a DC current that, though unidirectional, consists of pulses of current. Many applications of rectifiers, such as power supplies for radio, television and computerBecause of the alternating nature of the input AC sine wave, the process of rectification alone produces a DC current that, though unidirectional, consists of pulses of current. Many applications of rectifiers, such as power supplies for radio, television and computerBecause of the alternating nature of the input AC sine wave, the process of rectification alone produces a DC current that, though unidirectional, consists of pulses of current. Many applications of rectifiers, such as power supplies for radio, television and computerBecause of the alternating nature of the input AC sine wave, the process of rectification alone produces a DC current that, though unidirectional, consists of pulses of current. Many applications of rectifiers, such as power supplies for radio, television and computerBecause of the alternating nature of the input AC sine wave, the process of rectification alone produces a DC current that, though unidirectional, consists of pulses of current. Many applications of rectifiers, such as power supplies for radio, television and computerBecause of the alternating nature of the input AC sine wave, the process of rectification alone produces a DC current that, though unidirectional, consists of pulses of current. Many applications of rectifiers, such as power supplies for radio, television and computerBecause of the alternating nature of the input AC sine wave, the process of rectification alone produces a DC current that, though unidirectional, consists of pulses of current. Many applications of rectifiers, such as power supplies for radio, television and computerBecause of the alternating nature of the input AC sine wave, the process of rectification alone produces a DC current that, though unidirectional, consists of pulses of current. Many applications of rectifiers, such as power supplies for radio, television and computerBecause of the alternating nature of the input AC sine wave, the process of rectification alone produces a DC current that, though unidirectional, consists of pulses of current. Many applications of rectifiers, such as power supplies for radio, television and computerBecause of the alternating nature of the input AC sine wave, the process of rectification alone produces a DC current that, though unidirectional, consists of pulses of current. Many applications of rectifiers, such as power supplies for radio, television and computerBecause of the alternating nature of the input AC sine wave, the process of rectification alone produces a DC current that, though unidirectional, consists of pulses of current. Many applications of rectifiers, such as power supplies for radio, television and computerBecause of the alternating nature of the input AC sine wave, the process of rectification alone produces a DC current that, though unidirectional, consists of pulses of current. Many applications of rectifiers, such as power supplies for radio, television and computerBecause of the alternating nature of the input AC sine wave, the process of rectification alone produces a DC current that, though unidirectional, consists of pulses of current. Many applications of rectifiers, such as power supplies for radio, television and computerBecause of the alternating nature of the input AC sine wave, the process of rectification alone produces a DC current that, though unidirectional, consists of pulses of current. Many applications of rectifiers, such as power supplies for radio, television and computerBecause of the alternating nature of the input AC sine wave, the process of rectification alone produces a DC current that, though unidirectional, consists of pulses of current. Many applications of rectifiers, such as power supplies for radio, television and computerBecause of the alternating nature of the input AC sine wave, the process of rectification alone produces a DC current that, though unidirectional, consists of pulses of current. Many applications of rectifiers, such as power supplies for radio, television and computerBecause of the alternating nature of the input AC sine wave, the process of rectification alone produces a DC current that, though unidirectional, consists of pulses of current. Many applications of rectifiers, such as power supplies for radio, television and computerBecause of the alternating nature of the input AC sine wave, the process of rectification alone produces a DC current that, though unidirectional, consists of pulses of current. Many applications of rectifiers, such as power supplies for radio, television and computerBecause of the alternating nature of the input AC sine wave, the process of rectification alone produces a DC current that, though unidirectional, consists of pulses of current. Many applications of rectifiers, such as power supplies for radio, television and computerBecause of the alternating nature of the input AC sine wave, the process of rectification alone produces a DC current that, though unidirectional, consists of pulses of current. Many applications of rectifiers, such as power supplies for radio, television and computerBecause of the alternating nature of the input AC sine wave, the process of rectification alone produces a DC current that, though unidirectional, consists of pulses of current. Many applications of rectifiers, such as power supplies for radio, television and computerBecause of the alternating nature of the input AC sine wave, the process of rectification alone produces a DC current that, though unidirectional, consists of pulses of current. Many applications of rectifiers, such as power supplies for radio, television and computer</p>
+                    </div>
+                                        <!-- <hr> -->
+                    <div class="footer">
+                       <!-- <form action="" class="form-inline">
+                           <div class="form-group"> 
+                               <label for="Subscription">User name</label>
+                               <input type="text" name="" class="form-control" id="Subscription" placeholder="Your name">
+                           </div>
+                           <div class="form-group"> 
+                               <label for="Subscription">Password</label>
+                               <input type="text" name="" class="form-control" id="Subscription" placeholder="Enter ypur Password">
+                           </div>
+                           <button type="Submit" class="btn btn-default ">Submit</button>
+                           <hr>
+                       </form> -->
+                       <p>&copy @right 2017</p>
+
+                    </div>
+                    
+                    </div>
+                </div>
+            </div>
+        </section>
+    </div>  <!--End of container -->
+
+
+</div>
+
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.0/jquery.min.js"></script>
+<script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js"></script>
+
+</body>
+</html>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

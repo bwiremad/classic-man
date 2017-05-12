@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<div class="container">
+
+
+    {% if registered %}
+        Rango says: <strong>thank you for registering!</strong>
+        <a href="/account/">Return to the homepage.</a><br />
+    {% else %}
+        Rango says: <strong>register here!</strong><br />
+    <form method="post" action="/account/registered/">
+        {% csrf_token %}
+        {{ form.as_p }}
+        <button type="submit">submit</button>
+    </form>
+    {% endif %}
+</div>
+</body>
+</html>
