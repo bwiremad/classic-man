@@ -8,7 +8,7 @@ urlpatterns = [
     url(r'^registered/$', views.registered, name='registered'),
 
     url(r'^accounts/login/$', login, {'template_name':'account/login.html'}),
-    url(r'^accounts/logout/$', logout),
+    url(r'^accounts/logout/$', logout, {'template_name':'account/loggedout.html'}),
 
 
 ]

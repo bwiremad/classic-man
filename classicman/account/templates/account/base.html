@@ -5,8 +5,14 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!--The above three tags must come first in every bootstrap powered html page -->
+    
+    <!--bootstrap files -->
+    <link rel="stylesheet" type="text/css" href="css/bootstrap.min.css">
+
     <title>Classicman</title>
-    <meta name="description" content="ClassicMan">
 
     <link rel="stylesheet" type="text/css" href="{% static 'account/style.css' %}" />
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css">
@@ -44,8 +50,8 @@
             <div class="collapse navbar-collapse" id="navbar-collapse">
                 <ul class="nav navbar-nav navbar-right">
                     {% if user.is_authenticated %}
-                        <li>Hi {{ user.username }}!</li>
-                        <li><a href="/account/Logout/">Logout</a></li>
+                    <li><h3><strong>Hi {{ user.username }}!</strong></h3></li>
+                        <li><a href="/accounts/Logout/">Logout</a></li>
                     {% else %}
                         <li><a href="/account/register">Register</a></li>
                         <li><a href="accounts/login">Login</a></li>
@@ -55,13 +61,13 @@
 
                 </ul>
 
-                <ul class="nav navbar-nav navbar-right">
-                            {% if user.is_authenticated %}
-                            <li><a href="/">Restricted</a></li>
-                            <li><a href="/">Add Category</a></li>
-                            {% endif %}
-                            <li><a href="/">About</a></li>
-                        </ul>
+                <!--<ul class="nav navbar-nav navbar-right">-->
+                            <!--{% if user.is_authenticated %}-->
+                            <!--<li><a href="/">Restricted</a></li>-->
+                            <!--<li><a href="/">Add Category</a></li>-->
+                            <!--{% endif %}-->
+                            <!--<li><a href="/">About</a></li>-->
+                        <!--</ul>-->
             </div>
                         </div>
         </div>
@@ -73,24 +79,12 @@
         <section>
             <div class="row">
                 <div class="col-lg-2">
-                    <div class="Sidebar">
+                    <div class="sidebar-nav-fixed affix">
                         <div class="navbar-header">
                             <h3>Sidebar</h3>
                         </div>
 
-                       <p>Because of the alternating nature of the input AC sine wave, the process of rectification alone
-                       produces a DC current that, though unidirectional, consists of pulses of c
-                       Because of the alternating nature of the input AC sine wave, the process of rectification alone produces a DC current that, though unidirectional, consists of pulses of current. Many applications of rectifiers, such as power supplies for radio, television and  ecause of the alternating nature of the input AC sine wave, the process of rectification alone
-                       produces a DC current that, though unidirectional, consists of pulses of c
-                       Because of the alternating nature of the input AC sine wave, the process of rectification alone produces a DC current that, though unidirectional, consists of pulses of current. Many applications of rectifiers, such as power supplies for radio, television andecause of the alternating nature of the input AC sine wave, the process of rectification alone
-                       produces a DC current that, though unidirectional, consists of pulses of c
-                       Because of the alternating nature of the input AC sine wave, the process of rectification alone produces a DC current that, though unidirectional, consists of pulses of current. Many applications of rectifiers, such as power supplies for radio, television andecause of the alternating nature of the input AC sine wave, the process of rectification alone
-                       produces a DC current that, though unidirectional, consists of pulses of c
-                       Because of the alternating nature of the input AC sine wave, the process of rectification alone produces a DC current that, though unidirectional, consists of pulses of current. Many applications of rectifiers, such as power supplies for radio, television andecause of the alternating nature of the input AC sine wave, the process of rectification alone
-                       produces a DC current that, though unidirectional, consists of pulses of c
-                       Because of the alternating nature of the input AC sine wave, the process of rectification alone produces a DC current that, though unidirectional, consists of pulses of current. Many applications of rectifiers, such as power supplies for radio, television andecause of the alternating nature of the input AC sine wave, the process of rectification alone
-                       produces a DC current that, though unidirectional, consists of pulses of c
-                       Because of the alternating nature of the input AC sine wave, the process of rectification alone produces a DC current that, though unidirectional, consists of pulses of current. Many applications of rectifiers, such as power supplies for radio, television andcomputer</p>
+                       <p></p>
 		            </div>
                 </div>
                 <div class="col-lg-9">
@@ -103,16 +97,16 @@
                         </ol>
                         <div class="carousel-inner">
                             <div class="item active">
-                                <img src="{% static 'account/images/1.jpg' alt='Text of the image' height='10' %}" />
+                                <img src="{% static 'account/images/1.jpg' %}" alt='Text of the image' height='10'/>
                             </div>
                             <div class="item ">
-                                <img src="{% static 'account/images/2.jpg' alt='Text of the image' %}" />
+                                <img src="{% static 'account/images/2.jpg' %}" alt='Text of the image' />
                             </div>
                             <div class="item ">
-                                <img src="{% static 'account/images/3.jpg' alt='Text of the image' %}" />
+                                <img src="{% static 'account/images/3.jpg' %}" alt='Text of the image' />
                             </div>
                             <div class="item ">
-                                <img src="{% static 'account/images/7.jpg' alt='Text of the image' %}" />
+                                <img src="{% static 'account/images/7.jpg' %}" alt='Text of the image' />
                             </div>
                         </div>
 
@@ -141,7 +135,7 @@
                            <button type="Submit" class="btn btn-default ">Submit</button>
                            <hr>
                        </form> -->
-                       <p>&copy @right 2017</p>
+                       <p>&copy right @ ClassicMan 2017</p>
 
                     </div>
                     

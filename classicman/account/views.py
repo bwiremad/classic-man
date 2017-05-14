@@ -8,10 +8,11 @@ from django.http import HttpResponseRedirect, HttpResponse
 from django.contrib.auth import authenticate, login, logout
 from django.contrib.auth.decorators import login_required
 
+
 # Create your views here.
 
 def index(request):
-    return render(request, 'account/index.html')
+    return render(request, 'account/base.html')
 
 def register(request):
     if request.method == 'POST':
