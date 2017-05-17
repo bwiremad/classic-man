@@ -1,11 +1,23 @@
+body{
+	background-color: blue;
+}
+
 #content{
 	padding-top: 70px;
 	margin-top: auto;
 }
 
 .container section .sidebar{
-	margin-left: 10px;
+	margin-left: 0 auto;
 }
-#banner{
-	height: 50px;
+/*#banner{
+	height: 330px;
+}*/
+/*section{
+	padding-top: 20px;
+}*/
+section .thumbnail{
+	display: inline;
+	width: 50px;
+	height: 0 auto;
 }
